@@ -1,0 +1,83 @@
+/*************************************
+ Adrián Fernández Álvarez - UO282154
+DESCRIPCIÓN hoja de estilos generales
+*************************************/
+
+
+
+body{
+    background-color:rgb(91, 4, 89);
+    color:white;
+    font-family: Helvetica;
+    text-align: justify;
+
+}
+
+main{
+    background-color: black;
+    margin:3%;
+    padding: 2%;
+    min-width: 0%;
+
+}
+
+nav{
+    background-color: black;
+    padding: 0.3em;
+    margin: 2%;
+}
+   
+a{
+    color: white;
+    font-family: Helvetica;
+    font-size: 150%;
+    padding: 0.5em;
+   
+}
+img{
+    height: auto;
+    width:100%;
+}
+main img, main video{
+
+    height: auto;
+    width:30%;
+}
+
+header{
+    background-color: rgb(91, 4, 89);
+    font-size:200%;
+    font: bold;
+    font-family: Helvetica;
+    color:white;
+
+
+
+}
+
+footer{
+    background-color: rgb(91, 4, 89);
+    font-size:250%;
+    font: bold;
+    font-family: Helvetica;
+    color:white;
+    padding:0.4em;
+}
+
+
+table{
+
+    border: white 0.2em solid;
+    border-radius: 2%;
+    background-color: aliceblue;
+}
+
+th,td{
+    /*border: rgb(91, 4, 89) 1em solid;*/
+    background-color: black;
+    padding: 1.2em;
+        
+}
+th{
+    font-size: 1.5em;
+}

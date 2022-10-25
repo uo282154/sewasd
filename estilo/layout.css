@@ -1,0 +1,43 @@
+/*************************************
+ Adrián Fernández Álvarez - UO282154
+DESCRIPCIÓN hoja de estilo del layout
+*************************************/
+
+
+
+body{
+    display: grid;
+
+    grid: "header1 header2"
+    "nav nav"
+    "main main"
+    "footer footer";
+    gap:0.2%;
+    
+    
+}
+    
+header img{
+    grid-area: header1;
+}
+
+header h1{
+    grid-area: header2;
+}
+
+nav{
+    display: grid;
+    grid-template-areas: ". . . . .";
+
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+    
+
+}
+footer{
+    grid-area: footer;
+}
+
